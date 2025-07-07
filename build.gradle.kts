@@ -7,6 +7,7 @@ plugins {
 
 allprojects {
     apply(plugin = "java-library")
+    apply(plugin = "maven-publish")
     apply(plugin = "com.github.johnrengelman.shadow")
 
     group = "com.hydracloud.netty5-api"
